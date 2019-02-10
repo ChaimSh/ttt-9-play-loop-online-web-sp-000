@@ -43,11 +43,5 @@ while num_of_moves < 10
    turn(board)
 num_of_moves += 1
 end
-
-
-def play(board)
-  loop do
-   turn(board)
-  end
-
 end
+
