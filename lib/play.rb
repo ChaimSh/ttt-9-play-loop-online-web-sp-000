@@ -44,4 +44,3 @@ while num_of_moves < 10
 num_of_moves += 1
 end
 end
-
