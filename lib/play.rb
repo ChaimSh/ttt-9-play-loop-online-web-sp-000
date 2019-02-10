@@ -36,10 +36,18 @@ def turn(board)
 end
 
 # Defines amount of moves
+<<<<<<< HEAD
 def play(board)
 num_of_moves = 1
 while num_of_moves < 10
    turn(board)
 num_of_moves += 1
 end
+=======
+
+def play(board)
+  loop do
+   turn(board)
+  end
+>>>>>>> b7ac8079c0aaa3fb726c3039c16c8d25ac204cc1
 end
